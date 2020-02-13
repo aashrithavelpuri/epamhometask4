@@ -33,5 +33,6 @@ class HouseConstructionCostEstimation
 			costPerSquareFeet = 1800;
 		totalCost = costPerSquareFeet * totalArea;
 		System.out.printf("Estimated house construction cost : %dINR\n",totalCost);
+		sc.close();
 	}
 }
