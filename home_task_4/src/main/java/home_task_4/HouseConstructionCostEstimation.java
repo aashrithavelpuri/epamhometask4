@@ -1,6 +1,6 @@
 package home_task_4;
 
-import java.util.*;
+import java.util.Scanner;
 class HouseConstructionCostEstimation
 {
 	void costPerSquareFeet()
