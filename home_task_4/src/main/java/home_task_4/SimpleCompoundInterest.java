@@ -18,5 +18,6 @@ public class SimpleCompoundInterest  {
 		compoundInterest=principalAmount * Math.pow(1.0 + rateOfInterest / numberOfTimes,(numberOfTimes * time)) - principalAmount;
 		System.out.printf("Simple Interest=%f\n",simpleInterest);
 		System.out. printf("Compound Interest=%f\n",compoundInterest);
+		sc.close();
 	}
 }
